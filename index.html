@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>NEXGEN</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+ <!--=============== CSS ===============-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.css">
+
+<!-- jQuery library -->
+
+
+<!-- Latest compiled JavaScript -->
+
+   
+
+ <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+ <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="image/logo1.png" type="png">
+</head>
+<body>
+<div class="popup" id="popup">
+  <div class="popup-inner">
+   <a href="#"><img src="image/pop-up.png" style="width:650px; height:650px;"></a>
+    <div class="close">×</div>
+  </div>
+</div>
+<header class="header" id="header" style="position:relative;bottom:150px;">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">  <img src="image/logo1.png" width="200px"></a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" target="_self" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="aboutus.html" target="_self" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>About Us</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="services.html" target="_self" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Services</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="product.html" target="_self" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Product</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="video.html" target="_self" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Video</span>
+                     </a>
+                  </li>
+				   <li class="nav__item">
+                     <a href="contact.html" target="_self" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Contact Us</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+               <div class="nav__social">
+                  <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://github.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
+
+                  <a href="https://dribbble.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-dribbble-line"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+                  </a>
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>	
+<div id="root" style="position:relative;top:100px;"></div>
+
+<section id="our-process">
+	<div class="container">
+		<h1 class="text-center mt-5" data-aos="fade-up" data-aos-duration="1000" >OUR PROCESS </h1>
+			<div class="line d-block m-auto mt-4" data-aos="fade-down" data-aos-duration="1000" style="width:150px; height:2px; background:#003edd;"></div>
+			<h3 class="text-center mt-5">we know your time is valueable</h3>
+	<div class="row mt-5">
+		<div class="col-md-3 mt-2" data-aos="fade-up" data-aos-duration="500">
+		<i class='bx bx-check-circle icon'></i>
+		<span class="center mt-3">BOOKING</span>
+		</div>
+		<div class="col-md-3 mt-2" data-aos="fade-up" data-aos-duration="1000">
+			<i class='bx bxs-car-mechanic icon' ></i>
+			<span class="center mt-3">INSPECTION</span>
+		</div>
+		<div class="col-md-3 mt-2" data-aos="fade-up" data-aos-duration="1500">
+		<i class='bx bxs-credit-card-alt icon'></i>
+		<span class="center mt-3">VALUATION</span>
+		</div>
+		<div class="col-md-3 mt-2" data-aos="fade-up" data-aos-duration="2000">
+			<i class='bx bx-gas-pump icon'></i>
+			<span class="center mt-3">COMPLETION</span>
+		</div>
+	</div>
+	</div>
+</section>
+
+<section id="new-arrival">
+	<div class="container">
+		<h1 class="text-center mt-5" data-aos="fade-up" data-aos-duration="1000">SHOP NEW ARRIVALS </h1>
+		<div class="line d-block m-auto mt-4" data-aos="fade-down" data-aos-duration="1000" style="width:150px; height:2px; background:#003edd;"></div>
+		<div class="row">
+			<div class="col-sm-6  mt-5 grayscale " data-aos="fade-up" data-aos-duration="500">
+				<img src="image/arrivals.jpg" class="img-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<span>Shop Now<i class='bx bx-right-arrow-alt'></i></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 mt-5"  data-aos="fade-up" data-aos-duration="500">
+				<img src="image/arrivals1.jpg" class="img-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<span>Shop Now<i class='bx bx-right-arrow-alt'></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="services-01">
+<h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">FEATURES & INFORMATIVE</h1>
+<div class="line d-block m-auto mt-5" data-aos="fade-down" data-aos-duration="1000" style="width:150px; height:2px; background:#003edd; position:relative; top:40px;"></div>
+<div id="services-02">
+
+            <div class="content-box-md">
+
+                <div id="services-tabs">
+<br><br><br>  
+                    <ul class="text-center">
+                        <li><a href="#service-tab-1">PERFORMANCE</a></li>
+                        <li><a href="#service-tab-2">BODY-TYPE</a></li>
+                        <li><a href="#service-tab-3">ADAS</a></li>
+                        <li><a href="#service-tab-4">CONNECTIVE</a></li>
+                    </ul>
+<br>  
+                    <!-- Service Tab 01 -->
+                    <div id="service-tab-1" class="service-tab">
+
+                        <div class="container">
+                            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                                <div class="col-md-6">
+                                    <img src="image/perfornce.png" alt="creativity" class="img-fluid float-right" style="height:450px; width:550px;">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>PERFORMANCE</h2>
+										<h2>TURBO V8</h2>
+                                        <h3>When Creativity Matters in life</h3>
+                                        <p>A turbo engine comprises a turbine wheel and compressor wheel that are held together by a shaft. These components are enclosed in a snail-shaped housing that contains an inlet and an exhaust port.</p>
+
+                                        <div id="services-02-btn-01">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="READ MORE" role="button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Service Tab 02 -->
+                    <div id="service-tab-2" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/body type.png" alt="strategy" class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>BODY-TYPE</h2>
+										 <h2>BUILD-UP</h2>
+                                        <h3>All Web Needs Optimization to rank </h3>
+                                        <p>India has a diverse range of cars available to own but most cars come in one of seven car body types: Hatchback, Sedan, SUV, MUV, Coupe, Convertible, and Pickup Truck.</p>
+
+                                        <div id="services-02-btn-02">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="READ MORE" role="button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Service Tab 03 -->
+                    <div id="service-tab-3" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/Connected car systems all black 2.jpg" alt="design" class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>ADAS</h2>
+										<h2>AUTOMATICALLY</h2>
+                                        <h3>Design Which Makes Wow</h3>
+                                        <p> 
+                                        Automatic emergency braking, pedestrian detection, surround view, parking assist, driver drowsiness detection, and gaze detection are among the many ADAS applications that assist drivers with safety
+                                        </p>
+
+                                        <div id="services-02-btn-03">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="READ MORE" role="button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Service Tab 04 -->
+                    <div id="service-tab-4" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/connective.jpg" alt="development" class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>CONNECTIVE</h2>
+										<h2>INSTALLATION</h2>
+                                        <h3>Development and Interactivity in Web</h3>
+                                        <p>
+                                      A connected car is essentially a vehicle equipped with internet access, allowing it to share data with devices both inside and outside the car. This internet connection is usually achieved through mobile data networks, facilitating a myriad of services that can be remotely accessed via smartphones or other devices.
+                                        </p>
+
+                                        <div id="services-02-btn-04">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="READ MORE" role="button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+</section>
+<section id="test-drive">
+<h1 class="text-center mt-5">TEST DRIVE</h1>
+<div class="line d-block m-auto mt-4" style="width:150px; height:2px; background:#003edd;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 d-block m-auto">
+			<div class="card-form mt-5">
+			<h1 class="mt-5 text-center color">SCHEDULES</h1>
+			<p class="mt-5 text-center"> Your original driving license is more than enough. And you have to have riding gear at-least helmet with you (some companies provide them some dont just check with dealer). Apart from that some companies ask to sign a form. A test drive offers an opportunity to the prospective buyers to get up close and personal with their potential car.</p>	
+		<div class="col-sm-12 d-block m-auto">
+		<h2 class="text-center pt-3">BOOKING</h2>
+		<h3 class="text-center pt-3">To check Quality and your Experience</h3>
+		<form>
+		  <div class="row mt-5">
+		<div class="col-lg-6 mb-3">
+				<input type="name" class="form-control cheight" placeholder="Enter name" name="name">
+			</div>
+			<div class="col-lg-6 mb-3">
+				<input type="text" class="form-control cheight" placeholder="Enter email" name="email">
+			</div>
+			<div class="col-lg-6 mb-3">
+				<input type="phone" class="form-control cheight" placeholder="*phone" name="phone">
+			</div>
+			<div class="col-lg-6 mb-3">
+				<input type="text" class="form-control cheight" placeholder="Enter Address" name="Address">
+			</div>
+			<div class="col-lg-6 mb-3">
+				
+				<input type="date" class="form-control cheight" placeholder="Enter date" name="date">
+			</div>
+			<div class="col-lg-6 mb-3">
+				<input type="time" class="form-control cheight" placeholder="Enter time" name="time">
+			</div>
+			<div class="col-lg-12 mb-3">
+				<select class="form-select cheight" aria-label="Default select example">
+				  <option selected class="big">Product</option>
+				  <option value="1">FIREBIRD</option>
+				  <option value="2">ROADSTER</option>
+				  <option value="3">RAIDER</option>
+				  <option value="2">HEALEY</option>
+				  <option value="3">SEMI TRUCK</option>
+			</select>
+			</div>
+				<div class="col-sm-5 p-5">
+				<button class="btn-15">BOOK DRIVE</button>
+				</div>
+		</div>
+		</form>
+		</div>
+	</div>
+	</div>
+	</div>
+</div>	
+</section>
+<section id="test-down">
+	<h1 class="text-center mt-5">CLIENT REVIEW</h1>
+		<div class="line d-block m-auto mt-4" style="width:150px; height:2px; background:#003edd; position:relative; top:40px;"></div>
+</section>
+<section id="client">
+
+      <div class="testimonials1 mySwiper">
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="image/image1.jpg" alt="" class="image" />
+            <p>
+              Consumer Reports provides exclusive test results and survey findings to help consumers find the best new and used cars. They offer a comprehensive resource for researching cars, buying guides, and maintenance tip consumer ratings and reviews to assist other drivers
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="image/image2.jpg" alt="" class="image" />
+            <p>
+              Cars.com offers over 300,000 reviews and ratings, including real-world feedback from car owners and test drives. Consumers can review and rate cars in categories like comfort, interior, and more2.
+
+Edmunds provides consumer ratings and reviews to assist other drivers in finding the right car. Consumers can share their own car reviews and rate their vehicles. 
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="image/image3.jpg" alt="" class="image" />
+            <p>
+             Kelley Blue Book (KBB) is known for its top-rated new cars, SUVs, and trucks. They offer reviews, ratings, and comparison tests to help consumers make informed decisions4.
+
+J.D. Power and Associates offer car ratings from drivers, allowing users to research cars and access information on electric vehicles, tax incentives, charging maps, and more5.
+
+Reddit discussions provide insights from users. Recommendations include using sources like USNews
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+<section id="newsletter">
+	<div class="container">
+		<h1 class="text-center mt-5">SIGN UP FOR LATEST NEWS</h1>
+		<div class="line d-block m-auto mt-4" style="width:150px; height:2px; background:#003edd;"></div>
+		<h3 class="text-center mt-5">NEWSLETTER</h3>
+		<div class="row mt-5">
+			<div class="subscribe_form d-flex align-items-center">
+                    <form class="footer_subscribe mt-5">
+                    <input type="email" placeholder="E-mail address..." autocapitalize="off" autocomplete="off">
+                    <button>Subscribe</button>
+                    </form>
+                    </div>
+		</div>
+	</div>
+</section>	
+<footer class="footer">
+     <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp About Us</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp services</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Product</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp FAQ</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp shipping</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Delivery</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp order status</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>MODELS</h4>
+          <ul>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Firebird</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Raider</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Healey</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Roadster</a></li>
+			 <li><a href="#"><i class='bx bx-right-arrow-alt'></i>&nbsp Semi truck</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+<!-- partial -->
+  <script src='https://unpkg.com/react@16/umd/react.development.js'></script>
+<script src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react-transition-group/2.2.0/react-transition-group.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.1/prop-types.js'></script>
+<script src='https://unpkg.com/lodash@4.17.5/lodash.js'></script>
+<script src='https://unpkg.com/bezier-easing@2.1.0/dist/bezier-easing.min.js'></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/js/jquery.responsiveTabs.min.js"></script>
+<script src="javascript/swiper-bundle.min.js"></script>
+<script  src="javascript/script.js"></script>
+<script  src="javascript/script1.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    
+   $(function () {
+
+    $("#services-tabs").responsiveTabs({
+        animation: 'slide'
+    });
+
+          
+    
+     $('.gallery').magnificPopup({
+        delegate: '.popimg',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+      $('.gallery').isotope({
+      // options
+      itemSelector: '.items'
+    });
+
+    var $gallery = $('.gallery').isotope({
+      // options
+    });
+
+    // filter items on button click
+    $('.filtering').on( 'click', 'span', function() {
+
+        var filterValue = $(this).attr('data-filter');
+
+        $gallery.isotope({ filter: filterValue });
+
+    });
+
+    $('.filtering').on( 'click', 'span', function() {
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+    });
+
+}); 
+
+    
+    
+    </script>
+	<script>
+  AOS.init();
+</script>
+</body>
+</html>

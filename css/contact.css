@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+#getintouch{
+	width:100%;
+	height:auto;
+	padding:50px;
+	position:relative;
+	top:90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000;
+}
+#getintouch h1{
+	font-size:3rem;
+	color:#003edd;
+}
+#getintouch::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #003edd;
+  clip-path: polygon(86% 0, 100% 0, 100% 100%, 60% 100%);
+}
+#getintouch .container {
+  z-index: 12;
+  max-width: 1050px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#getintouch .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+#getintouch .content .image-box {
+  max-width: 55%;
+}
+#getintouch .content .image-box img {
+  width: 100%;
+}
+#getintouch .content .topic {
+  font-size: 22px;
+  font-weight: 500;
+  color: #003edd;
+}
+#getintouch .content form {
+  width: 40%;
+  margin-right: 30px;
+}
+#getintouch .content .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+#getintouch .content .input-box input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding: 0 16px;
+  background: #003edd;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+#getintouch .content .input-box input:focus,
+#getintouch .content .input-box input:valid {
+  border-color: #003edd;
+  background-color: #fff;
+}
+#getintouch .content .input-box label {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #fff;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+#getintouch .content .input-box input:focus ~ label,
+#getintouch .content .input-box input:valid ~ label {
+  top: 0;
+  left: 12px;
+  display: 14px;
+  color: #003edd;
+  background: #fff;
+}
+#getintouch .content .message-box {
+  min-height: 100px;
+  position: relative;
+}
+#getintouch .content .message-box textarea {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  background: #003edd;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  padding: 5px 16px;
+  transition: all 0.3s ease;
+}
+#getintouch .content .message-box textarea:focus {
+  border-color: #003edd;
+  background-color: #fff;
+}
+#getintouch .content .message-box label {
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  left: 18px;
+  top: 6px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+#getintouch .content .message-box textarea:focus ~ label {
+  left: 12px;
+  top: -10px;
+  color: #003edd;
+  font-size: 14px;
+  background: #fff;
+}
+#getintouch .content .input-box input[type="submit"] {
+  color: #fff;
+  background: #003edd;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border: 2px solid #003edd;
+  background:none;
+  z-index: 1;
+  position:relative;
+  color:#000;
+  font-size:1.5rem;
+}
+#getintouch .content .input-box:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height:0;
+  top: 0;
+  left: 0;
+  background-color:#003edd;
+  transition: all 0.3s ease;
+  z-index:-1;
+  
+}
+#getintouch .content .input-box:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+  
+}
+#getintouch .content .input-box:active {
+  top: 2px;
+}
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing: border-box; }
+
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+#Location{
+	width:100%;
+	height:auto;
+	position:relative;
+	top:90px;
+	padding:50px;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+	outline: none;
+}
+::-moz-placeholder {
+	color: #666;
+	font-weight: 300;
+	opacity: 1;
+}
+
+::-webkit-input-placeholder {
+	color: #666;
+	font-weight: 300;
+}
+
+
+/* Contact Form Styling */
+
+.textcenter {
+	text-align: center;
+}
+.section1 {
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+.section1 .shtext {
+	display: block;
+	margin-top: 20px;
+	font-size:3rem;
+	font-weight:bold;
+}
+.section1 .seperator {
+	border-bottom:5px solid #003edd;
+	width: 150px;
+	display: inline-block;
+	margin: 20px;
+	font-size:3rem;
+	font-weight:bold;
+}
+
+.section1 h1 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.section2 {
+    width: 1200px;
+    margin: 25px auto;
+}
+.section2 .col2 {
+	width: 48.71%;
+}
+.section2 .col2.first {
+	float: right;
+}
+.section2 .col2.last {
+	float: left;
+}
+.section2 .col2.column2 {
+	padding: 0 30px;
+}
+.section2 span.collig {
+	color: #a2a2a2;
+	margin-right: 10px;
+	display: inline-block;
+}
+.section2 .sec2addr {
+	display: block;
+	line-height: 26px;
+}
+.section2 .sec2addr p:first-child {
+	margin-bottom: 10px;
+}
+.section2 .sec2contactform input[type="text"], 
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+    padding: 18px;
+    border: 0;
+    background: #EDEDED;
+    margin: 7px 0;
+}
+.section2 .sec2contactform textarea {
+	width: 100%;
+	display: block;
+	color: #666;
+  resize:none;
+}
+.section2 .sec2contactform input[type="submit"] {
+	padding: 15px 40px;
+    color: #fff;
+    border: 0;
+    background: #003edd;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.section2 .sec2contactform h3 {
+	font-weight: normal;
+    margin: 20px 0;
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 19px;
+    color: #003edd;
+}
+
+/* @media querries */
+
+@media only screen and (max-width: 1266px) {
+	.section2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.container {
+		padding: 0 30px 70px;
+	}
+	.section2 .col2 {
+		width: 100%;
+		display: block;
+	}
+	.section2 .col2.first {
+		margin-bottom: 10px;
+	}
+	.section2 .col2.column2 {
+		padding: 0;
+	}
+	 .sec2map {
+		height: 250px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.section2 .sec2addr {
+		font-size: 14px;
+	}
+	.section2 .sec2contactform h3 {
+		font-size: 16px;
+	}
+	.section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea {
+		padding: 10px;
+		margin:3px 0;
+	}
+	.section2 .sec2contactform input[type="submit"] {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.section1 h1 {
+		font-size: 28px;
+	}	
+}
